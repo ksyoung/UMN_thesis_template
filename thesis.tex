@@ -75,8 +75,10 @@
 %\usepackage[caption=false]{subfig}   
 \usepackage{subcaption}
 
+\linespread{1.3}		% Sets inter-line spacing.  Assuming 1.3 is the right number since it's in the MN template
 
-\linespread{1.3}		% not sure what this does, but it's in the MN template
+\setcounter{secnumdepth}{3}  %% number \subsubsection{}. (default is 2, number subsections)
+\setcounter{tocdepth}{1}  %% put chapter (0) and sections (1) in TOC. Not subsections (2) or subsubsections (3). (default is 2)
 
 \begin{document}
 
